@@ -1,8 +1,13 @@
 # snakebase-auth
 
-## run with poetry
+## Installation
 
 ```bash	
 poetry install
-poetry run python snakebase_auth/main.py
+```
+
+## Usage
+
+```bash
+uvicorn snakebase_auth.main:app --reload
 ```

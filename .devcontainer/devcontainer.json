@@ -13,12 +13,13 @@
 				"github.copilot-nightly",
 				"ms-azuretools.vscode-docker",
 				"github.vscode-pull-request-github",
-				"eamodio.gitlens"
+				"eamodio.gitlens",
+				"ms-python.python"
 			]
 		}
 	},
 	"forwardPorts": [
-		3000
+		8000
 	],
 	"mounts": ["source=/var/run/docker.sock,target=/var/run/docker.sock,type=bind"],
 	"name": "Archlinux Python3.11",
