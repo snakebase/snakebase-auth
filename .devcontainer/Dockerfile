@@ -4,7 +4,7 @@ FROM archlinux
 RUN pacman -Syyu --noconfirm
 
 # Install Docker, Git and Poetry
-RUN pacman -S --noconfirm docker git poetry
+RUN pacman -S --noconfirm docker git poetry 
 
 # Install Zsh and OhMyZsh
 RUN pacman -S --noconfirm zsh
